@@ -38,10 +38,10 @@ struct TitleSlide: View {
             .padding(.bottom, 40)
             
             VStack(alignment: .trailing) {
-                Text("2024/11/3")
+                Text("2025/5/13")
                     .fontWeight(.semibold)
                     .font(.system(size: 40))
-                Text("Kanagawa.swift #1")
+                Text("Mobile LT")
                     .fontWeight(.semibold)
                     .font(.system(size: 50))
             }
@@ -52,14 +52,14 @@ struct TitleSlide: View {
     }
     
     var titleText: Text {
-        Text("iPhone Simulator")
+        Text("Animatable")
             .font(.system(size: 150))
             .fontWeight(.heavy)
             .foregroundColor(.accentColor)
-        + Text(" に\n")
+        + Text(" って何者？\n")
             .font(.system(size: 100))
             .fontWeight(.heavy)
-        + Text("目を生やす")
+        + Text("アニメーションの落とし穴")
             .font(.system(size: 100))
             .fontWeight(.heavy)
     }
@@ -73,10 +73,6 @@ struct TitleSlide: View {
 }
 
 
-struct TitleSlide_Previews: PreviewProvider {
-    static var previews: some View {
-        SlidePreview {
-            TitleSlide()
-        }
-    }
+#Preview {
+    TitleSlide()
 }

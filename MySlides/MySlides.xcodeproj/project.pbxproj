@@ -11,6 +11,10 @@
 		1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */; };
 		636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */; };
 		636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */; };
+		636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */; };
+		636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */; };
+		636BF03B2DD0C7B600DF6AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636BF0392DD0C19700DF6AD6 /* Assets.xcassets */; };
+		636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */; };
 		A6F0EDB501E07B4593D98EBF /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = B811DC4129412E925691C373 /* SlideKit */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +23,10 @@
 		5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidesApp.swift; sourceTree = "<group>"; };
 		636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroSlide.swift; sourceTree = "<group>"; };
 		636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
+		636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSlide.swift; sourceTree = "<group>"; };
+		636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenaEventSlide.swift; sourceTree = "<group>"; };
+		636BF0392DD0C19700DF6AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailMethodSlide.swift; sourceTree = "<group>"; };
 		D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
 		EBBA7230A770851C016E49D4 /* MySlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySlides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AB070A5C5846F51329EAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -49,11 +57,21 @@
 			children = (
 				F3AB070A5C5846F51329EAF8 /* Info.plist */,
 				11F875B6DF9DE9D11A2BD6BF /* MySlides.entitlements */,
+				636BF0392DD0C19700DF6AD6 /* Assets.xcassets */,
 				5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */,
 				D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */,
 				DDB0D08CB0E361076950AEDC /* Slides */,
+				636BF0342DD0A05000DF6AD6 /* Template */,
 			);
 			path = MySlides;
+			sourceTree = "<group>";
+		};
+		636BF0342DD0A05000DF6AD6 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 		71686D705B4E7132D9CB9446 /* Products */ = {
@@ -69,6 +87,8 @@
 			children = (
 				636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */,
 				636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */,
+				636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */,
+				636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -82,6 +102,7 @@
 			buildPhases = (
 				70258F2B843B150D5A290AB4 /* Sources */,
 				398C7CCE27C05A1ACF943355 /* Frameworks */,
+				636BF03A2DD0C7AF00DF6AD6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,7 +123,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1620;
 			};
 			buildConfigurationList = 2B74B12494CB84D5C89C1860 /* Build configuration list for PBXProject "MySlides" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -124,13 +145,27 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		636BF03A2DD0C7AF00DF6AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636BF03B2DD0C7B600DF6AD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70258F2B843B150D5A290AB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */,
+				636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */,
 				636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */,
 				1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */,
+				636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */,
 				636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */,
 				1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */,
 			);
@@ -145,6 +180,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = MySlides/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -191,9 +227,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -218,6 +256,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = MySlides/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -264,9 +303,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;

@@ -13,26 +13,42 @@ struct SelfIntroSlide: View {
 
     var body: some View {
         HeaderSlide("自己紹介") {
+            item(name: "所属", content: "Sansan EU Mobile")
             item(name: "名前", content: "あきどん")
-            item(name: "X(Twitter)", content: "@akidon0000")
-            item(name: "所属", content: "徳島大学院 修士2年")
-            item(name: "専攻", content: "無機化学")
-            item(name: "趣味", content: "サイクリング - ポケカ(New)")
+            item(name: "Times", content: "times-akidon")
+            item(name: "X", content: "@akidon0000")
+            item(name: "最近の出来事", content: "ボルダリングにハマりました")
         }
         .overlay {
-            VStack() {
-                Image("akidon0000")
-                    .resizable()
-                    .frame(width: 400, height: 400)
-                    .clipShape(Circle())
-                    .scaledToFit()
-                    .overlay(
-                        Circle()
-                            .stroke(Color.blue, lineWidth: 5)
-                    )
-                    .padding(.trailing, 350)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
+            HStack {
+                Spacer()
+                .frame(maxWidth: .infinity)
+                
+                Spacer()
+                    .frame(maxWidth: 300)
+                
+                VStack {
+                    Image("akidon0000")
+                        .resizable()
+                        .frame(width: 400, height: 400)
+                        .clipShape(Circle())
+                        .scaledToFit()
+                        .overlay(
+                            Circle()
+                                .stroke(Color.blue, lineWidth: 5)
+                        )
+                        .padding(10)
+
+                    Image("bouldering")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(10)
+                }
+                .frame(maxWidth: .infinity)
+
+
             }
+            .padding(.trailing, 50)
         }
     }
     
@@ -49,10 +65,6 @@ struct SelfIntroSlide: View {
     }
 }
 
-struct SelfIntroSlide_Previews: PreviewProvider {
-    static var previews: some View {
-        SlidePreview {
-            SelfIntroSlide()
-        }
-    }
+#Preview {
+    SelfIntroSlide()
 }

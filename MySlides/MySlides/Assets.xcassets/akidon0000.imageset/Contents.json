@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon-広め.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

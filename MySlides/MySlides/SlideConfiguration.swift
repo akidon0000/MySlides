@@ -18,5 +18,12 @@ struct SlideConfiguration {
         
         TitleSlide()
         SelfIntroSlide()
+        CenterSlide("今回はSwiftUIのアニメーションについて")
+        CenterSlide("3月7日 とあるイベントにて、、、")
+        DenaEventSlide(isActive: false, isAnimatable: false)
+        CenterSlide("0 → 100 が 浮き上がるような \n アニメーション になる😭")
+        
+        
+        DenaEventSlide(isActive: true, isAnimatable: true)
     }
 }
