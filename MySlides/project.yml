@@ -1,0 +1,19 @@
+name: MySlides
+packages:
+  SlideKit:
+    url: https://github.com/mtj0928/SlideKit
+    from: 0.4.0
+targets:
+  MySlides:
+    type: application
+    settings:
+      base:
+        INFOPLIST_FILE: MySlides/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.github.mtj0928.SlideGen.MySlides
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+    platform: macOS
+    deploymentTarget: "12.0"
+    sources: [MySlides]
+    dependencies:
+      - package: SlideKit

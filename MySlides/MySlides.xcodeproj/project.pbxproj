@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */; };
+		1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */; };
+		636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */; };
+		636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */; };
+		A6F0EDB501E07B4593D98EBF /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = B811DC4129412E925691C373 /* SlideKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11F875B6DF9DE9D11A2BD6BF /* MySlides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySlides.entitlements; sourceTree = "<group>"; };
+		5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidesApp.swift; sourceTree = "<group>"; };
+		636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroSlide.swift; sourceTree = "<group>"; };
+		636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
+		D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
+		EBBA7230A770851C016E49D4 /* MySlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySlides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AB070A5C5846F51329EAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398C7CCE27C05A1ACF943355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0EDB501E07B4593D98EBF /* SlideKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B40902007D8845ACC2AF3C = {
+			isa = PBXGroup;
+			children = (
+				4394A170D64F300D2E0D3CEF /* MySlides */,
+				71686D705B4E7132D9CB9446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4394A170D64F300D2E0D3CEF /* MySlides */ = {
+			isa = PBXGroup;
+			children = (
+				F3AB070A5C5846F51329EAF8 /* Info.plist */,
+				11F875B6DF9DE9D11A2BD6BF /* MySlides.entitlements */,
+				5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */,
+				D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */,
+				DDB0D08CB0E361076950AEDC /* Slides */,
+			);
+			path = MySlides;
+			sourceTree = "<group>";
+		};
+		71686D705B4E7132D9CB9446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA7230A770851C016E49D4 /* MySlides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB0D08CB0E361076950AEDC /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */,
+				636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7E214B37AF4BA8C0A9848A /* MySlides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0639897D88CDC60A99D2AD9 /* Build configuration list for PBXNativeTarget "MySlides" */;
+			buildPhases = (
+				70258F2B843B150D5A290AB4 /* Sources */,
+				398C7CCE27C05A1ACF943355 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySlides;
+			packageProductDependencies = (
+				B811DC4129412E925691C373 /* SlideKit */,
+			);
+			productName = MySlides;
+			productReference = EBBA7230A770851C016E49D4 /* MySlides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8319F741375E405BBC9C8E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 2B74B12494CB84D5C89C1860 /* Build configuration list for PBXProject "MySlides" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 13B40902007D8845ACC2AF3C;
+			packageReferences = (
+				C4A1C486B80E7F1961F9DED5 /* XCRemoteSwiftPackageReference "SlideKit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7E214B37AF4BA8C0A9848A /* MySlides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70258F2B843B150D5A290AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */,
+				1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */,
+				636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */,
+				1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71FAB5387A67788CC1A92C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MySlides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.MySlides;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		842D6A247D752E9EA8C6F61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9291B9E82BB002903AC03CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MySlides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.MySlides;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4FE49A19A479A8AA7100EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B74B12494CB84D5C89C1860 /* Build configuration list for PBXProject "MySlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE49A19A479A8AA7100EA8 /* Debug */,
+				842D6A247D752E9EA8C6F61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0639897D88CDC60A99D2AD9 /* Build configuration list for PBXNativeTarget "MySlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FAB5387A67788CC1A92C52 /* Debug */,
+				9291B9E82BB002903AC03CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4A1C486B80E7F1961F9DED5 /* XCRemoteSwiftPackageReference "SlideKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtj0928/SlideKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B811DC4129412E925691C373 /* SlideKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4A1C486B80E7F1961F9DED5 /* XCRemoteSwiftPackageReference "SlideKit" */;
+			productName = SlideKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8319F741375E405BBC9C8E32 /* Project object */;
+}
