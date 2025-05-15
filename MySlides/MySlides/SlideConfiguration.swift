@@ -15,15 +15,23 @@ struct SlideConfiguration {
 
     ///  Add your slides into the trailing closure.
     let slideIndexController = SlideIndexController {
-        
         TitleSlide()
         SelfIntroSlide()
         CenterSlide("今回はSwiftUIのアニメーションについて")
         CenterSlide("3月7日 とあるイベントにて、、、")
         DenaEventSlide(isActive: false, isAnimatable: false)
         CenterSlide("0 → 100 が 浮き上がるような \n アニメーション になる😭")
-        
-        
+        FailMethodSlide()
+        KoshimizuSanSlide()
+        WhatsAnimatableSlide()
+        SuccessMethodSlide()
+        CenterSlide("上手くいった👏")
         DenaEventSlide(isActive: true, isAnimatable: true)
+        CenterSlide("Pathを使ったアニメーションの時は\nどうするの🤔")
+        PathSlide()
+        WhatsShapeSlide()
+        ShapeSuccessSlide()
+        GeocentrismSlide()
+//        CenterSlide("上手くいった👏")
     }
 }

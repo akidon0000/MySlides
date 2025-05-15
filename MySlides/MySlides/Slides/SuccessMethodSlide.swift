@@ -1,36 +1,48 @@
 //
-//  FailMethodSlide.swift
+//  SuccessMethodSlide.swift
 //  MySlides
 //
-//  Created by Akihiro Matsuyama on 2025/05/11.
+//  Created by Akihiro Matsuyama on 2025/05/14.
 //
 
 import SwiftUI
 import SlideKit
 
 @Slide
-struct FailMethodSlide: View {
+struct SuccessMethodSlide: View {
 
     var body: some View {
-        HStack{
+        HStack {
             Spacer()
             Code(code, fontSize: 28)
                 .padding()
                 .border(.black, width: 1)
             Spacer()
-            FailMethodSubView()
+            SuccessMethodSubView()
             Spacer()
         }
     }
 
     var code: String {
         """
+        struct SubView: View, Animatable {
+            var number: Double
+
+            var animatableData: Double {
+                get { number }
+                set { number = newValue }
+            }
+
+            var body: some View {
+                Text("進捗: " + Int(number).description + " %")
+            }
+        }
         struct ContentView: View {
             @State var progress = 1.0
 
             var body: some View {
                 VStack() {
-                    Text("進捗: " + progress.description + " %")
+                    SubView(number: progress)
 
                     Button(action: {
                         withAnimation(.linear(duration: 5)) {
@@ -46,18 +58,17 @@ struct FailMethodSlide: View {
     }
 }
 
-struct FailMethodSubView: View {
-    @State var progress: Int = 1
+struct SuccessMethodSubView: View {
+    @State private var progress: Double = 1.0
 
     var body: some View {
         VStack(spacing: 100) {
-            Text("進捗: " + progress.description + " %")
+            AnimatingNumber(number: progress)
                 .font(.system(size: 50))
-                .fontWeight(.bold)
 
             Button(action: {
                 withAnimation(.linear(duration: 5)) {
-                    progress = 100
+                    progress = 100.0
                 }
             }) {
                 Text("開始")
@@ -75,6 +86,19 @@ struct FailMethodSubView: View {
     }
 }
 
+struct AnimatingNumber: View, Animatable {
+    var number: Double
+
+    var animatableData: Double {
+        get { number }
+        set { number = newValue }
+    }
+
+    var body: some View {
+        Text("進捗: " + Int(number).description + " %")
+    }
+}
+
 #Preview {
-    FailMethodSlide()
+    SuccessMethodSlide()
 }

@@ -9,24 +9,40 @@
 /* Begin PBXBuildFile section */
 		1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */; };
 		1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */; };
+		630BB7A62DD49A1F0089E8DA /* SuccessMethodSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7A52DD49A0F0089E8DA /* SuccessMethodSlide.swift */; };
+		630BB7A82DD4E8FB0089E8DA /* WhatsAnimatableSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7A72DD4E8F30089E8DA /* WhatsAnimatableSlide.swift */; };
+		630BB7AA2DD565500089E8DA /* WhyDontMoveSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7A92DD565340089E8DA /* WhyDontMoveSlide.swift */; };
+		630BB7AE2DD584270089E8DA /* PathSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7AD2DD5841A0089E8DA /* PathSlide.swift */; };
+		630BB7B02DD588E80089E8DA /* WhatsShapeSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */; };
+		630BB7B22DD589D80089E8DA /* ShapeSuccessSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */; };
+		630BB7B62DD58AF50089E8DA /* GeocentrismSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */; };
 		636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */; };
 		636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */; };
 		636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */; };
 		636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */; };
 		636BF03B2DD0C7B600DF6AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636BF0392DD0C19700DF6AD6 /* Assets.xcassets */; };
 		636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */; };
+		636BF0432DD0E49800DF6AD6 /* KoshimizuSanSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */; };
 		A6F0EDB501E07B4593D98EBF /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = B811DC4129412E925691C373 /* SlideKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11F875B6DF9DE9D11A2BD6BF /* MySlides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySlides.entitlements; sourceTree = "<group>"; };
 		5FB897D9ECECF6FD45078EF2 /* MySlidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlidesApp.swift; sourceTree = "<group>"; };
+		630BB7A52DD49A0F0089E8DA /* SuccessMethodSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessMethodSlide.swift; sourceTree = "<group>"; };
+		630BB7A72DD4E8F30089E8DA /* WhatsAnimatableSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAnimatableSlide.swift; sourceTree = "<group>"; };
+		630BB7A92DD565340089E8DA /* WhyDontMoveSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyDontMoveSlide.swift; sourceTree = "<group>"; };
+		630BB7AD2DD5841A0089E8DA /* PathSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSlide.swift; sourceTree = "<group>"; };
+		630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsShapeSlide.swift; sourceTree = "<group>"; };
+		630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeSuccessSlide.swift; sourceTree = "<group>"; };
+		630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocentrismSlide.swift; sourceTree = "<group>"; };
 		636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroSlide.swift; sourceTree = "<group>"; };
 		636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSlide.swift; sourceTree = "<group>"; };
 		636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenaEventSlide.swift; sourceTree = "<group>"; };
 		636BF0392DD0C19700DF6AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailMethodSlide.swift; sourceTree = "<group>"; };
+		636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoshimizuSanSlide.swift; sourceTree = "<group>"; };
 		D29F91541A216ECB2DC3E410 /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
 		EBBA7230A770851C016E49D4 /* MySlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySlides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AB070A5C5846F51329EAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +105,14 @@
 				636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */,
 				636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */,
 				636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */,
+				636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */,
+				630BB7A72DD4E8F30089E8DA /* WhatsAnimatableSlide.swift */,
+				630BB7A52DD49A0F0089E8DA /* SuccessMethodSlide.swift */,
+				630BB7A92DD565340089E8DA /* WhyDontMoveSlide.swift */,
+				630BB7AD2DD5841A0089E8DA /* PathSlide.swift */,
+				630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */,
+				630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */,
+				630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -161,13 +185,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630BB7AE2DD584270089E8DA /* PathSlide.swift in Sources */,
+				636BF0432DD0E49800DF6AD6 /* KoshimizuSanSlide.swift in Sources */,
+				630BB7AA2DD565500089E8DA /* WhyDontMoveSlide.swift in Sources */,
+				630BB7B22DD589D80089E8DA /* ShapeSuccessSlide.swift in Sources */,
+				630BB7B02DD588E80089E8DA /* WhatsShapeSlide.swift in Sources */,
 				636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */,
 				636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */,
 				636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */,
 				1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */,
 				636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */,
 				636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */,
+				630BB7A82DD4E8FB0089E8DA /* WhatsAnimatableSlide.swift in Sources */,
+				630BB7A62DD49A1F0089E8DA /* SuccessMethodSlide.swift in Sources */,
 				1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */,
+				630BB7B62DD58AF50089E8DA /* GeocentrismSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
