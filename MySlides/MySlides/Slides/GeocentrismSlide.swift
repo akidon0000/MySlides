@@ -251,12 +251,12 @@ struct GeocentrismView: View {
                 
                 CircularMotion(planet: .mercury,
                                progress: mercuryProgress,
-                               showPath: true,
+                               showPath: false,
                                influPlanetPos: sunPosition)
                 
                 CircularMotion(planet: .venus,
                                progress: venusProgress,
-                               showPath: true,
+                               showPath: false,
                                influPlanetPos: sunPosition)
                 
                 MarsAnimationView(progress: marsProgress, isPath: true)

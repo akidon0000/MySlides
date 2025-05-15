@@ -16,10 +16,12 @@
 		630BB7B02DD588E80089E8DA /* WhatsShapeSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */; };
 		630BB7B22DD589D80089E8DA /* ShapeSuccessSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */; };
 		630BB7B62DD58AF50089E8DA /* GeocentrismSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */; };
+		63266F122DD5E8E700C9C257 /* LastSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63266F112DD5E8DF00C9C257 /* LastSlide.swift */; };
+		63266F142DD62D1800C9C257 /* DenaEventSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63266F132DD62D0400C9C257 /* DenaEventSlide.swift */; };
 		636BF02F2DD09DD100DF6AD6 /* SelfIntroSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */; };
 		636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */; };
 		636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */; };
-		636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */; };
+		636BF0382DD0A0F200DF6AD6 /* DenaEventContentsSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0372DD0A0E000DF6AD6 /* DenaEventContentsSlide.swift */; };
 		636BF03B2DD0C7B600DF6AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636BF0392DD0C19700DF6AD6 /* Assets.xcassets */; };
 		636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */; };
 		636BF0432DD0E49800DF6AD6 /* KoshimizuSanSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */; };
@@ -36,10 +38,12 @@
 		630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsShapeSlide.swift; sourceTree = "<group>"; };
 		630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeSuccessSlide.swift; sourceTree = "<group>"; };
 		630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocentrismSlide.swift; sourceTree = "<group>"; };
+		63266F112DD5E8DF00C9C257 /* LastSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSlide.swift; sourceTree = "<group>"; };
+		63266F132DD62D0400C9C257 /* DenaEventSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenaEventSlide.swift; sourceTree = "<group>"; };
 		636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroSlide.swift; sourceTree = "<group>"; };
 		636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		636BF0352DD0A05B00DF6AD6 /* CenterSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterSlide.swift; sourceTree = "<group>"; };
-		636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenaEventSlide.swift; sourceTree = "<group>"; };
+		636BF0372DD0A0E000DF6AD6 /* DenaEventContentsSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenaEventContentsSlide.swift; sourceTree = "<group>"; };
 		636BF0392DD0C19700DF6AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailMethodSlide.swift; sourceTree = "<group>"; };
 		636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoshimizuSanSlide.swift; sourceTree = "<group>"; };
@@ -103,7 +107,8 @@
 			children = (
 				636BF0302DD09E9D00DF6AD6 /* TitleSlide.swift */,
 				636BF02E2DD09DC600DF6AD6 /* SelfIntroSlide.swift */,
-				636BF0372DD0A0E000DF6AD6 /* DenaEventSlide.swift */,
+				63266F132DD62D0400C9C257 /* DenaEventSlide.swift */,
+				636BF0372DD0A0E000DF6AD6 /* DenaEventContentsSlide.swift */,
 				636BF0402DD0E11B00DF6AD6 /* FailMethodSlide.swift */,
 				636BF0422DD0E48B00DF6AD6 /* KoshimizuSanSlide.swift */,
 				630BB7A72DD4E8F30089E8DA /* WhatsAnimatableSlide.swift */,
@@ -113,6 +118,7 @@
 				630BB7AF2DD588E10089E8DA /* WhatsShapeSlide.swift */,
 				630BB7B12DD589C80089E8DA /* ShapeSuccessSlide.swift */,
 				630BB7B52DD58AEC0089E8DA /* GeocentrismSlide.swift */,
+				63266F112DD5E8DF00C9C257 /* LastSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -191,7 +197,7 @@
 				630BB7B22DD589D80089E8DA /* ShapeSuccessSlide.swift in Sources */,
 				630BB7B02DD588E80089E8DA /* WhatsShapeSlide.swift in Sources */,
 				636BF0412DD0E14700DF6AD6 /* FailMethodSlide.swift in Sources */,
-				636BF0382DD0A0F200DF6AD6 /* DenaEventSlide.swift in Sources */,
+				636BF0382DD0A0F200DF6AD6 /* DenaEventContentsSlide.swift in Sources */,
 				636BF0312DD09EA100DF6AD6 /* TitleSlide.swift in Sources */,
 				1717017D480544F2CF3ED2F0 /* MySlidesApp.swift in Sources */,
 				636BF0362DD0A06100DF6AD6 /* CenterSlide.swift in Sources */,
@@ -199,7 +205,9 @@
 				630BB7A82DD4E8FB0089E8DA /* WhatsAnimatableSlide.swift in Sources */,
 				630BB7A62DD49A1F0089E8DA /* SuccessMethodSlide.swift in Sources */,
 				1BFFEC91C7900055F99362A7 /* SlideConfiguration.swift in Sources */,
+				63266F142DD62D1800C9C257 /* DenaEventSlide.swift in Sources */,
 				630BB7B62DD58AF50089E8DA /* GeocentrismSlide.swift in Sources */,
+				63266F122DD5E8E700C9C257 /* LastSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,17 +218,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XSC9AJPSP3;
 				INFOPLIST_FILE = MySlides/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AkidonSlide;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.MySlides;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.akidon0000.MySlides;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -286,17 +299,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XSC9AJPSP3;
 				INFOPLIST_FILE = MySlides/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AkidonSlide;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.MySlides;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.akidon0000.MySlides;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = macosx;
 			};
 			name = Release;

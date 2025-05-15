@@ -66,7 +66,7 @@ struct ShapeSuccessSlide: View {
                 }
             }
         }
-        struct NonAnimatedBar: Shape {
+        struct AnimatedBar: Shape {
             var width: CGFloat
         
             var animatableData: CGFloat {

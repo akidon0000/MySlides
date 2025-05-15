@@ -78,29 +78,6 @@ struct PathSlide: View {
         }
         """
     }
-    
-//    var body: some View {
-//        VStack(spacing: 50) {
-//            Text("🔵 Animatableあり（滑らか）")
-//            AnimatedBar(width: toggle ? 300 : 100)
-//                .fill(Color.blue)
-//                .frame(height: 30)
-//            
-//            Text("🔴 Animatableなし（カクッと）")
-//            NonAnimatedBar(width: toggle ? 300 : 100)
-//                .fill(Color.red)
-//                .frame(height: 30)
-//            
-//            Button("切り替え") {
-//                withAnimation(.easeInOut(duration: 2)) {
-//                    toggle.toggle()
-//                }
-//            }
-//            .font(.title)
-//            .padding(.top, 50)
-//        }
-//        .padding()
-//    }
 }
 
 // MARK: - Animatableなし
