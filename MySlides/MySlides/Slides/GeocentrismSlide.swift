@@ -17,19 +17,7 @@ struct GeocentrismSlide: View {
             HStack {
                 GeocentrismView()
                     .scaleEffect(2.0)
-
-                Image("chi")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(maxWidth: 1200)
-                    .opacity(onTaped ? 1 : 0)
             }
-
-            Color.clear
-                .contentShape(Rectangle())
-                .onTapGesture {
-                    onTaped.toggle()
-                }
         }
     }
 }

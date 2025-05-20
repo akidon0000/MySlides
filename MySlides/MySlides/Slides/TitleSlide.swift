@@ -38,12 +38,12 @@ struct TitleSlide: View {
             .padding(.bottom, 40)
             
             VStack(alignment: .trailing) {
-                Text("2025/5/13")
+                Text("2025/5/20")
                     .fontWeight(.semibold)
                     .font(.system(size: 40))
-                Text("Mobile LT")
+                Text("Mobile勉強会 #20 ウォンテッドリー × チームラボ × Sansan")
                     .fontWeight(.semibold)
-                    .font(.system(size: 50))
+                    .font(.system(size: 30))
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
             .padding(.top, 40)

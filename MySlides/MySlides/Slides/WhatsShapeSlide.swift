@@ -24,9 +24,6 @@ struct WhatsShapeSlide: View {
                     VStack {
                         Item("Shape は Animatable 準拠している")
                         Item("つまり、animatableData を 実装すれば...")
-                        
-                        WebView(url: qiitaURL)
-                            .opacity(onTaped ? 1 : 0)
                             
                     }
                 }

@@ -13,10 +13,10 @@ struct SelfIntroSlide: View {
 
     var body: some View {
         HeaderSlide("自己紹介") {
-            item(name: "所属", content: "Sansan EU Mobile")
-            item(name: "名前", content: "あきどん")
-            item(name: "Times", content: "times-akidon")
-            item(name: "X", content: "@akidon0000")
+            item(name: "会社", content: "Sansan株式会社")
+            item(name: "所属", content: "25卒 新卒モバイルエンジニア")
+            item(name: "名前", content: "akidon0000")
+            item(name: "SNS", content: "@akidon0000")
             item(name: "最近の出来事", content: "ボルダリングにハマりました")
         }
         .overlay {

@@ -22,7 +22,7 @@ struct SlideConfiguration {
         DenaEventContentsSlide(isActive: false, isAnimatable: false)
         CenterSlide("0 → 100 が 浮き上がるような \n アニメーション になる😭")
         FailMethodSlide()
-        KoshimizuSanSlide()
+//        KoshimizuSanSlide()
         WhatsAnimatableSlide()
         SuccessMethodSlide()
         CenterSlide("上手くいった👏")
@@ -30,12 +30,10 @@ struct SlideConfiguration {
         CenterSlide("Pathを使ったアニメーションの時は\nどうなるの🤔")
         PathSlide()
         WhatsShapeSlide()
-        WhatsShapeSlide(onTaped: true)
         ShapeSuccessSlide()
         CenterSlide("Shapeを他にも使うと")
         GeocentrismSlide()
         CenterSlide("あなたも、これで快適なSwiftUIライフを")
         CenterSlide("Fin.")
-//        CenterSlide("上手くいった👏")
     }
 }
